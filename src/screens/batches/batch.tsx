@@ -7,6 +7,7 @@ import SearchInput from '@components/ui/SearchInput';
 import {ISubject} from '@constants/api';
 import {NativeStackScreenProps} from 'react-native-screens/lib/typescript/native-stack/types';
 import {RootStackParamList} from '@constants/types';
+import Subject from '@components/Subject/Subject';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Batch'>;
 
@@ -20,7 +21,7 @@ const BatchesScreen = ({route}: Props) => {
       <SearchInput />
       <View className="flex mt-10 space-y-5 h-full">
         {batch?.results?.map((s: ISubject) => {
-          // return <Subject subject={s} key={s.uid} />;
+          return <Subject subject={s} key={s.uid} />;
         })}
       </View>
     </SafeAreaView>
