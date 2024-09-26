@@ -4,6 +4,7 @@ import useAuth from '@hooks/useAuth';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import SearchInput from '@components/ui/SearchInput';
 import Seperator from '@components/ui/seperator';
+import BatchContainer from '@components/Batches/BatchesContainer';
 
 const LogoImage = require('../../../assets/images/logos/logo.png');
 
@@ -35,7 +36,7 @@ const Batches = () => {
           <SearchInput />
         </View>
         <Seperator />
-        {/* <BatchContainer /> */}
+        <BatchContainer />
       </SafeAreaView>
     </>
   );
