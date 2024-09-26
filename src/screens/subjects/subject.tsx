@@ -7,7 +7,7 @@ import Spinner from '@components/ui/Spinner';
 import {IChapter} from '@constants/api';
 import {NativeStackScreenProps} from 'react-native-screens/lib/typescript/native-stack/types';
 import {RootStackParamList} from '@constants/types';
-// import Chapter from '@components/chapter';
+import Chapter from '@components/Chapter/Chapter';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Subject'>;
 
@@ -23,7 +23,7 @@ const SubjectsScreen = ({route}: Props) => {
       <SearchInput />
       <View className="flex mt-10 space-y-5 h-full w-full">
         {subject?.results?.map((s: IChapter, i: number) => {
-          // return <Chapter chapter={s} index={i} key={s.uid} />;
+          return <Chapter chapter={s} index={i} key={s.uid} />;
         })}
       </View>
     </SafeAreaView>

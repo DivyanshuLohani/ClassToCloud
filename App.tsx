@@ -12,6 +12,7 @@ import AuthProvider from '@context/AuthProvider';
 import BatchesScreen from '@screens/batches/batch';
 import {RootStackParamList} from '@constants/types';
 import SubjectsScreen from '@screens/subjects/subject';
+import ChapterScreen from '@screens/chapter/chapter';
 
 const theme: Theme = {
   dark: true,
@@ -43,6 +44,14 @@ function App(): React.JSX.Element {
             <Stack.Screen
               name="Subject"
               component={SubjectsScreen}
+              options={({route}) => ({
+                title: route.params.name,
+                headerShown: true,
+              })}
+            />
+            <Stack.Screen
+              name="Chapter"
+              component={ChapterScreen}
               options={({route}) => ({
                 title: route.params.name,
                 headerShown: true,
