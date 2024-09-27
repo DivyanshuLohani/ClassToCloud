@@ -3058,51 +3058,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ClassToCloud@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "ClassToCloud@workspace:."
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@babel/preset-env": ^7.20.0
-    "@babel/runtime": ^7.20.0
-    "@react-native-async-storage/async-storage": ^2.0.0
-    "@react-native/babel-preset": 0.75.3
-    "@react-native/eslint-config": 0.75.3
-    "@react-native/metro-config": 0.75.3
-    "@react-native/typescript-config": 0.75.3
-    "@react-navigation/bottom-tabs": ^6.6.1
-    "@react-navigation/material-top-tabs": ^6.6.14
-    "@react-navigation/native": ^6.1.18
-    "@react-navigation/stack": ^6.4.1
-    "@types/react": ^18.2.6
-    "@types/react-native-vector-icons": ^6.4.18
-    "@types/react-test-renderer": ^18.0.0
-    axios: ^1.7.7
-    babel-jest: ^29.6.3
-    babel-plugin-module-resolver: ^5.0.2
-    eslint: ^8.19.0
-    jest: ^29.6.3
-    nativewind: ^2.0.11
-    prettier: 2.8.8
-    react: 18.3.1
-    react-native: 0.75.3
-    react-native-blob-util: ^0.19.11
-    react-native-gesture-handler: ^2.20.0
-    react-native-orientation-locker: ^1.7.0
-    react-native-pager-view: ^6.4.1
-    react-native-pdf: ^6.7.5
-    react-native-safe-area-context: ^4.11.0
-    react-native-screens: ^3.34.0
-    react-native-tab-view: ^3.5.2
-    react-native-vector-icons: ^10.2.0
-    react-native-video: ^6.6.2
-    react-test-renderer: 18.3.1
-    simple-swizzle: ^0.2.2
-    tailwindcss: 3.3.2
-    typescript: 5.0.4
-  languageName: unknown
-  linkType: soft
-
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -3922,6 +3877,51 @@ __metadata:
   checksum: 2556807a99aec1f9daac60741af96cd613a707f343174ae7967da46402c91dced411bf830d209f2e93be4cecea46fc75cecf1f17c799d7d8a9e1dd6204bfcd22
   languageName: node
   linkType: hard
+
+"classtocloud@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "classtocloud@workspace:."
+  dependencies:
+    "@babel/core": ^7.20.0
+    "@babel/preset-env": ^7.20.0
+    "@babel/runtime": ^7.20.0
+    "@react-native-async-storage/async-storage": ^2.0.0
+    "@react-native/babel-preset": 0.75.3
+    "@react-native/eslint-config": 0.75.3
+    "@react-native/metro-config": 0.75.3
+    "@react-native/typescript-config": 0.75.3
+    "@react-navigation/bottom-tabs": ^6.6.1
+    "@react-navigation/material-top-tabs": ^6.6.14
+    "@react-navigation/native": ^6.1.18
+    "@react-navigation/stack": ^6.4.1
+    "@types/react": ^18.2.6
+    "@types/react-native-vector-icons": ^6.4.18
+    "@types/react-test-renderer": ^18.0.0
+    axios: ^1.7.7
+    babel-jest: ^29.6.3
+    babel-plugin-module-resolver: ^5.0.2
+    eslint: ^8.19.0
+    jest: ^29.6.3
+    nativewind: ^2.0.11
+    prettier: 2.8.8
+    react: 18.3.1
+    react-native: 0.75.3
+    react-native-blob-util: ^0.19.11
+    react-native-gesture-handler: ^2.20.0
+    react-native-orientation-locker: ^1.7.0
+    react-native-pager-view: ^6.4.1
+    react-native-pdf: ^6.7.5
+    react-native-safe-area-context: ^4.11.0
+    react-native-screens: ^3.34.0
+    react-native-tab-view: ^3.5.2
+    react-native-vector-icons: ^10.2.0
+    react-native-video: ^6.6.2
+    react-test-renderer: 18.3.1
+    simple-swizzle: ^0.2.2
+    tailwindcss: 3.3.2
+    typescript: 5.0.4
+  languageName: unknown
+  linkType: soft
 
 "clean-stack@npm:^2.0.0":
   version: 2.2.0

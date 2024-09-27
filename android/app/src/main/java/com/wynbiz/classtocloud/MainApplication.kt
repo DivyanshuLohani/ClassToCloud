@@ -1,4 +1,4 @@
-package com.classtocloud
+package com.wynbiz.classtocloud
 
 import android.app.Application
 import com.facebook.react.PackageList
