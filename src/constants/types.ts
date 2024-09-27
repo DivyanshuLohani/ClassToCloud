@@ -4,4 +4,5 @@ export type RootStackParamList = {
   Batch: {uid: string; name: string};
   Subject: {uid: string; name: string};
   Chapter: {uid: string; name: string};
+  Lecture: {uid: string};
 };

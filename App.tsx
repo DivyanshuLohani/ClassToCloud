@@ -13,6 +13,7 @@ import BatchesScreen from '@screens/batches/batch';
 import {RootStackParamList} from '@constants/types';
 import SubjectsScreen from '@screens/subjects/subject';
 import ChapterScreen from '@screens/chapter/chapter';
+import LectureScreen from '@screens/lecuture/lecture';
 
 const theme: Theme = {
   dark: true,
@@ -57,6 +58,7 @@ function App(): React.JSX.Element {
                 headerShown: true,
               })}
             />
+            <Stack.Screen name="Lecture" component={LectureScreen} />
           </Stack.Navigator>
         </AuthProvider>
       </ThemeProvider>
