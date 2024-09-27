@@ -5,4 +5,5 @@ export type RootStackParamList = {
   Subject: {uid: string; name: string};
   Chapter: {uid: string; name: string};
   Lecture: {uid: string};
+  Notes: {uid: string; name: string};
 };

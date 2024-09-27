@@ -14,6 +14,7 @@ import {RootStackParamList} from '@constants/types';
 import SubjectsScreen from '@screens/subjects/subject';
 import ChapterScreen from '@screens/chapter/chapter';
 import LectureScreen from '@screens/lecuture/lecture';
+import NotesScreen from '@screens/notes/notes';
 
 const theme: Theme = {
   dark: true,
@@ -59,6 +60,14 @@ function App(): React.JSX.Element {
               })}
             />
             <Stack.Screen name="Lecture" component={LectureScreen} />
+            <Stack.Screen
+              name="Notes"
+              component={NotesScreen}
+              options={({route}) => ({
+                title: route.params.name,
+                headerShown: true,
+              })}
+            />
           </Stack.Navigator>
         </AuthProvider>
       </ThemeProvider>
